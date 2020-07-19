@@ -1,0 +1,11 @@
+*.log
+.idea/
+env/
+
+__pycache__/
+venv/
+
+/Bot/chat_id.csv
+/Bot/settings.py
+/notes.py
+
