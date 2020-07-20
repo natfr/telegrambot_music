@@ -1,7 +1,4 @@
-from telegram import InlineKeyboardButton
-from telegram import InlineKeyboardMarkup
-from telegram import ReplyKeyboardMarkup
-# from telegram import ReplyKeyboardRemove
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, ReplyKeyboardRemove
 
 
 def get_keyboard_tracks1(user_request):
@@ -29,4 +26,7 @@ def get_keyboard_tracks2(user_request):
     return InlineKeyboardMarkup(keyboard, resize_keyboard=True)
 
 def admin_keyboard():
+    """
+    Keyboard for Admin's panel
+    """
     return ReplyKeyboardMarkup([['Отправить сообщение', 'Все пользователи']])

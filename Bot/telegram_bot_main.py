@@ -23,7 +23,7 @@ def start(update, context):
     print(f'Новый запрос от : {update.message.from_user}.')
 
     # Analytics
-    #analytics_bot(user_info=update.message.from_user)
+    analytics_bot(user_info=update.message.from_user)
 
     update.message.reply_text(
         text=f'Привет, {update.message.from_user.first_name}. Напиши название песни или исполнителя',

@@ -1,22 +1,22 @@
-###Telegram-bot "Music offline"
+#Telegrambot "Music offline"
 __________
-#### Telegram-bot parsing audio from music portal in response to user's request.
-   Project was created for study purposes.
+#### Telegrambot parsing audio from the music portal in response to the user's request.
+   The project was created for study purposes.
 __________
 #### Installation
    1. Install all used packages from requirements.txt (python 3.7).
-   2. Create "settings.py" file with Bot_key, Proxy and etc. (please find info below).
+   2. Create "settings.py" file with Bot_key, Proxy and etc. (please find the info below).
    3. Launch "telegram_bot_main.py"
 __________
 #### Server  = https://www.pythonanywhere.com/
-   "base_url" (bot) is turned off on Server, because Server solves problem of VPN by itself.
+   "base_url" (bot) is turned off on Server, because Server solves the problem of VPN itself.
 __________
 #### Content
-   Project includes the next files:
+   The project includes the next files:
    1. telegram_bot_main.py
-   2. music_parsing.py (to parse songs from music portal)
+   2. music_parsing.py (to parse songs from the music portal)
    3. buttons.py (all used keyboards and buttons)
-   4. settings.py (please find info below)
+   4. settings.py (please find the info below)
    5. requirements.txt (all used packages)
    6. admin.py(functions related to admin role)
    7. analytics.py (functions collecting data about users)
@@ -51,7 +51,7 @@ __________
    1. /start
    2. Write your request (for example: Billie Eilish Bad Guy)
    3. Choose one and click
-   4. Click on cloud to download
+   4. Click on "cloud" symbol to download
     ![project_final](screens/project1.jpeg)
     
    If you are Admin and want to see all users:
@@ -59,9 +59,9 @@ __________
    2. Click 'Все пользователи' (all users)
     ![project_final](screens/project2.png)
    
-   If you are Admin and want to send a meessage to users:
+   If you are Admin and want to send a message to users:
    1. /admin
    2. Click 'Отправить сообщение' (write the message)
-   3. Write your message and send it to bot
-   4. If your message is ok, click 'Да' (yes) to send it to admin. You can send it to all users: go to Bot.admin.admin_approval (lines 82-92).
+   3. Write your message and send it to the bot
+   4. If your message is ok, click 'Да' (yes) to send it to admin. You can send it to all users: go to Bot.admin.admin_approval (lines 94-104).
     ![project_final](screens/project3.png)

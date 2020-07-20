@@ -29,7 +29,7 @@ def get_html(url, params=None):
 
 def get_content(html):
     """
-    Function collects info about songs (title, singer, time) for user
+    The function collects info about songs (title, singer, time) for user
     """
     soup = BeautifulSoup(html, 'html.parser')
     items = soup.find_all('div', class_='track__info')  # singer and song
